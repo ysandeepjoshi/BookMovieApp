@@ -1,8 +1,10 @@
 import './Header.css';
 import React from 'react';
+import logo from '../../assets/logo.svg'; 
  const Header = (props) =>{
     return (
-          <div>HEllo</div>
+          <div className="header-custom">
+              <span><img className="logo" src={logo} alt="logo was here"></img></span></div>
     )
 }
 export default Header;
