@@ -5,7 +5,7 @@ import Header from "../../common/header/Header";
  const Home = (props) =>{
     return (<div>
       <Header baseUrl={props.baseUrl} />
-          <div>HEllo Home</div></div>
+          <div className="upcomingMovie">Upcoming Movies</div></div>
     )
 }
 export default Home;

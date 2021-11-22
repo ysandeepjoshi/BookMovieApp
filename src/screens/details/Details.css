@@ -1,0 +1,19 @@
+.left-pane{
+align-items: flex-start;
+float: left;
+width: 20%;
+}
+.right-pane{
+align-items: center;
+float: right;
+width: 20%;
+}
+.center-pane{
+align-items: flex-end;
+}
+.backtoHome{
+    margin-left: 24px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    height: 24px;
+}
