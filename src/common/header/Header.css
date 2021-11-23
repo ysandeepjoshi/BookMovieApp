@@ -1,28 +1,40 @@
-.header-custom{
-    background-color: black;
+.app-header {
+    background-color: #222;
     height: 36px;
-    padding: 8px, 32px,8px, 16px;
-    color: white;
+    padding: 8px 32px 8px 16px;
 }
-.logo{
-    background-color: #ff7f7f;
+
+.login-button {
+    float: right;
+}
+
+.logo {
+    animation: app-logo-spin infinite 8s linear;
     height: 35px;
-    align-content: flex-start;
+    background: #ff7f7f;
 }
-.image-rotate {
-    -webkit-animation:spin 8s linear infinite;
-    -moz-animation:spin 8s linear infinite;
-    animation:spin 8s linear infinite;
+
+.bookshow-button {
+    float: right;
+    margin-right: 8px;
 }
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotateY(360deg); } 
+
+@keyframes app-logo-spin {
+    from { transform: scaleX(-1); }
 }
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotatey(360deg); } 
+
+.tabs {
+    margin-bottom: 20px;
 }
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotateY(360deg); 
-        transform:rotateY(360deg); 
-    } 
+
+.dispNone {
+    display: none;
+}
+
+.dispBlock {
+    display: block;
+}
+
+.red {
+    color: red;
 }

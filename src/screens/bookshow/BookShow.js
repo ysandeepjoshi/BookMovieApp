@@ -47,7 +47,7 @@ const BookShow = (props) => {
       .then((response) => response.json())
       .then((response) => {
         setOriginalShows(response.shows);
-
+        //debugger;
         let newLocations = [];
 
         for (let show of response.shows) {
